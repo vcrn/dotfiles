@@ -19,8 +19,8 @@ default_floating_border normal
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 # font pango:monospace 8
-#font hack:monospace 8
-font pango:Hack Nerd Font 8
+font pango:Hack Nerd Font 13
+#font nerd:hack 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -42,7 +42,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 # Set wallpaper with script using feh
-exec sh ~/scripts/set_wallpaper &
+exec sh ~/.config/autorandr/postswitch &
 
 # Set monitors
 exec autorandr --change
@@ -61,7 +61,7 @@ floating_modifier $mod
 
 # start a terminal
 # bindsym $mod+Return exec fish
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec alacritty --config-file ~/.config/alacritty/alacritty.yaml
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -76,7 +76,7 @@ bindsym $mod+d exec --no-startup-id dmenu_run
 
 # Function button shortcuts
 bindsym $mod+F2 exec firefox
-bindsym $mod+F3 exec nautilus
+bindsym $mod+F3 exec pcmanfm
 
 # change focus
 bindsym $mod+h focus left
@@ -238,6 +238,5 @@ mode "resize" {
 bar {
         status_command i3status
         font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-    	  #font pango:DejaVu Sans Mono 13
         font pango:Hack Nerd Font 13
 }
