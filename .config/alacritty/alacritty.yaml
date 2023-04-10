@@ -1,0 +1,27 @@
+font:
+  bold:
+    family: hack
+    style: Bold
+
+  bold_italic:
+    family: hack
+    style: Bold Italic
+
+  italic:
+    family: hack
+    style: Italic
+
+  normal:
+    family: hack
+    style: Regular
+
+  size: 10
+
+
+import:
+  - ~/.config/alacritty/dracula.yml
+
+shell:
+  args:
+    - --login
+  program: /bin/zsh
