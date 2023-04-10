@@ -1,0 +1,2 @@
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+ZSH_THEME="powerlevel10k/powerlevel10k"
