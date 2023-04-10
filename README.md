@@ -12,7 +12,7 @@ The script will update the system, install the dependencies and place the conten
 All dependencies can be found in `install.sh`. When installing this on a system not based on Arch, some of the dependencies might need to be 
 installed by other means than by standard channels or stable versions. Dependencies that are known to be installed as too old versions on 
 non-Arch distros for dotfiles to work:
-- `neovim` needs to be of version >= 0.7
+- `neovim` needs to be of version >= 0.7. For the LSP to work, `unzip` and `npm` are needed.
 - `i3` needs to be of version >= 4.22
 
 ## Functions
