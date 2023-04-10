@@ -3,7 +3,7 @@
 echo "Updating system..."
 pacman -Syu
 echo "Installing dependencies..."
-pacman -S feh autorandr alacritty neovim ttf-hack pcmanfm firefox zsh i3-scrot unzip npm lxappearance
+pacman -S feh arandr autorandr alacritty neovim ttf-hack pcmanfm firefox zsh i3-scrot unzip npm lxappearance
 
 echo "Setting zsh as shell"
 chsh -s /usr/bin/zsh
@@ -21,10 +21,10 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 echo "Moving i3-files..."
 cp -r .config/i3 ~/.config/i3
 cp -r .config/i3status ~/.config/i3status
-cp .config/i3-scrot.conf 
 echo "Moving nvim-files..."
 cp -r .config/nvim/ ~/.config/nvim
-#echo "Moving autorandr postswitch hook..."
+echo "Moving autorandr postswitch hook..."
+cp .config/autorandr/postswitch
 # autorandr
 echo "Moving zsh and PowerLever10K files" 
 cp .config/zshrc ~/.zshrc
