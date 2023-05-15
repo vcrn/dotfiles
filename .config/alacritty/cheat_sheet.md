@@ -4,4 +4,4 @@
 
 ## General terminal
 * `<Ctrl>+<A>` Move to first position.
-* `<Ctrl>+<E>
+* `<Ctrl>+<E>` Move to last position.
