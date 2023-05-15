@@ -1,21 +1,21 @@
 font:
   bold:
-    family: hack
+    family: Fira Code Nerd Font
     style: Bold
 
   bold_italic:
-    family: hack
+    family: Fira Code Nerd Font
     style: Bold Italic
 
   italic:
-    family: hack
+    family: Fira Code Nerd Font
     style: Italic
 
   normal:
-    family: hack
+    family: Fira Code Nerd Font
     style: Regular
 
-  size: 10
+  size: 11
 
 
 import:
