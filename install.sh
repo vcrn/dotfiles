@@ -3,7 +3,7 @@
 echo "Updating system..."
 pacman -Syu
 echo "Installing dependencies..."
-pacman -S feh arandr autorandr alacritty neovim ttf-firacode-nerd ttf-hack pcmanfm firefox zsh i3-scrot unzip npm lxappearance oto-fonts-emoji
+pacman -S feh arandr autorandr alacritty neovim ttf-firacode-nerd ttf-hack pcmanfm firefox zsh i3-scrot unzip npm lxappearance oto-fonts-emoji rofi
 
 echo "Setting zsh as shell"
 chsh -s /usr/bin/zsh
