@@ -11,6 +11,9 @@ chsh -s /usr/bin/zsh
 echo "Installing oh-my-zsh" 
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+
+read -p "Open a terminal and follow installation of Oh-my-zsh, then press Enter to continue."
+
 echo "Installing PowerLever10K" 
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
@@ -32,7 +35,7 @@ echo "Moving rofi-files..."
 cp -r .config/rofi ~/.config
 echo "Moving zsh and PowerLever10K files" 
 cp .zshrc ~/.zshrc
-cp .zshrc.pre-oh-my-zsh ~/.zshrc.pre-oh-my-zsh
+#cp .zshrc.pre-oh-my-zsh ~/.zshrc.pre-oh-my-zsh
 cp .config/.p10k.zsh ~/.p10k.zh
 
 echo "To install neovim configurations, go to `~/.config/nvim/lua/core/plugins.lua` 
