@@ -26,6 +26,8 @@ cp -r .config/nvim/ ~/.config/
 echo "Moving autorandr postswitch hook..."
 cp .config/autorandr/postswitch
 # autorandr
+echo "Moving Alacritty-files..."
+cp -r .config/alacritty ~/.config/
 echo "Moving zsh and PowerLever10K files" 
 cp .zshrc ~/.zshrc
 cp .zshrc.pre-oh-my-zsh ~/.zshrc.pre-oh-my-zsh
