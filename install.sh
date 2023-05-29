@@ -28,10 +28,12 @@ cp .config/autorandr/postswitch
 # autorandr
 echo "Moving Alacritty-files..."
 cp -r .config/alacritty ~/.config/
+echo "Moving rofi-files..."
+cp -r .config/rofi ~/.config
 echo "Moving zsh and PowerLever10K files" 
 cp .zshrc ~/.zshrc
 cp .zshrc.pre-oh-my-zsh ~/.zshrc.pre-oh-my-zsh
-cp .config/powerlevel10k ~/.p10k.zh
+cp .config/.p10k.zsh ~/.p10k.zh
 
 echo "To install neovim configurations, go to `~/.config/nvim/lua/core/plugins.lua` 
 and type `:PackerSync` followed by `<ENTER>`
