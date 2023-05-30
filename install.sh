@@ -36,7 +36,7 @@ cp -r .config/rofi ~/.config
 echo "Moving zsh and PowerLever10K files" 
 cp .zshrc ~/.zshrc
 #cp .zshrc.pre-oh-my-zsh ~/.zshrc.pre-oh-my-zsh
-cp .config/.p10k.zsh ~/.p10k.zh
+cp .p10k.zsh ~/.p10k.zsh
 
 echo "To install neovim configurations, go to `~/.config/nvim/lua/core/plugins.lua` 
 and type `:PackerSync` followed by `<ENTER>`
