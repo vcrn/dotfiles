@@ -23,7 +23,7 @@ return require("packer").startup(function(use)
   use("nvim-treesitter/nvim-treesitter")
   use({
     "nvim-telescope/telescope.nvim",
-    tag = "0.1.3",
+    tag = "0.1.6",
     requires = { { "nvim-lua/plenary.nvim" } },
   })
   use({
