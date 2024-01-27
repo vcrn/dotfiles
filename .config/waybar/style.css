@@ -72,6 +72,11 @@ button:hover {
     border-bottom: 3px solid #ffffff;
 }
 
+#custom-pacman-update {
+    color: #ffffff;
+	padding: 0 10px;
+}
+
 #clock,
 #battery,
 #cpu,
@@ -108,17 +113,15 @@ button:hover {
 }
 
 #clock {
-    background-color: #64727D;
+    color: #ffffff;
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    color: #ffffff;
 }
 
 #battery.charging, #battery.plugged {
     color: #ffffff;
-    background-color: #26A65B;
 }
 
 @keyframes blink {
@@ -143,24 +146,24 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    color: #ffffff;
 }
 
 #memory {
-    background-color: #9b59b6;
+    color: #ffffff;
 }
 
 #disk {
-    background-color: #964B00;
+    color: #ffffff;
 }
 
 #backlight {
     background-color: #90b1b1;
+    color: #000000;
 }
 
 #network {
-    background-color: #2980b9;
+    color: #ffffff;
 }
 
 #network.disconnected {
@@ -168,8 +171,7 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #f1c40f;
-    color: #000000;
+    color: #ffffff;
 }
 
 #pulseaudio.muted {
@@ -201,7 +203,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    color: #ffffff;
 }
 
 #temperature.critical {
@@ -209,7 +211,7 @@ label:focus {
 }
 
 #tray {
-    background-color: #2980b9;
+    color: #ffffff;
 }
 
 #tray > .passive {
